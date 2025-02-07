@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>할일 목록</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>장보기 목록</h1>
+    </header>
 
-    <div>
-        <ul>
-           
-        </ul>
-    </div>
-</body>
+    <form action="">
+      <div>
+        <label for="item"> 장 볼 물건 이름 </label>
+        <!-- // 얘를 클릭했을 때 input창으로 가게 하기 위해 input에도 똑같은 id값으로 item을 준다. -->
+        <input type="text" id="item" />
+      </div>
+
+      <button>추가하기</button>
+    </form>
+
+    <ul>
+      <li>
+        <div>
+          <p>한우++ 4팩</p>
+          <button>삭제</button>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+            한우++ 4팩 한우++ 4팩 한우++ 4팩한우++ 4팩한우++ 4팩한우++ 4팩
+            한우++ 4팩한우++ 4팩 한우++ 4팩한우++ 4팩 한우++ 4팩한우++ 4팩
+          </p>
+          <button>삭제</button>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>한우++ 4팩</p>
+          <button>삭제</button>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>한우++ 4팩</p>
+          <button>삭제</button>
+        </div>
+      </li>
+    </ul>
+
+    <script src="index.js"></script>
+  </body>
 </html>
